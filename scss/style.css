@@ -1,6 +1,43 @@
 @charset "UTF-8";
+.header--stile {
+  background-color: #3259a5;
+  color: white;
+  font-family: "Aleo", serif;
+}
+.header--stile .header--container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.header--stile a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header--botton__toggle {
+  color: white;
+}
+
+button {
+  color: white;
+}
+
+.togle--mobile {
+  max-width: 2em;
+  max-height: auto;
+  color: white;
+}
+
+.header--ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 .footer--stile {
-  background-color: #232323;
+  background-color: #777;
   color: white;
   font-family: "Aleo", serif;
 }
@@ -34,7 +71,7 @@
 }
 .footer--stile .btn-color:hover {
   background: white;
-  color: #232323;
+  color: #777;
 }
 
 .footer--form__position {
