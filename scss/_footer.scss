@@ -1,5 +1,5 @@
 .footer--stile{
-    background-color: $color-negro;
+    background-color: $color-gris;
     color: $color-blanco;
     font-family:$font-principal;
     .text--copyright{
@@ -27,7 +27,7 @@
         text-transform: uppercase;
     }
     .btn-color{
-        background:$color-azul;
+        background:$color-negro;
         color: $color-blanco;
     }
     .btn-color:hover{
