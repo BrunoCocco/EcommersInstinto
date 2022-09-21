@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Account</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../scss/style.css">
+    <script src="../js/pages/account.js" defer></script>
 </head>
+
 <body>
-    <div class="login">
-        <div class="form_container">
-            <h1 class="title"> My Account </h1>
-            <form action="#" class="form">
-                <div>
-                    <!-- user -->
-                    <label for="name" class="label"> Name </label>
-                    <input type="text" class="input input__name" id="name" placeholder="Avocato" required>
-                        <!-- nueva email -->
-                    <label for="email" class="label"> Email </label>
-                    <input type="text" class="input input__email" id="email" placeholder="email@email.com" required>
-                        <!-- Password -->
-                    <label for="new-password" class="label"> password </label>
-                    <input type="password" class="input input__password" id="new-password" placeholder="*********" required>
+    <main class="container">
+        <div class="row">
+            <form class="offset-md-4 mt-5" action="">
+                <div class="col-md-3 mt-5">
+                    <label for="">Name</label>
+                    <input id="name" type="text">
                 </div>
-                <div>
-                    <!-- submit -->
-                    <input id="clickFormLogin" class="primary_button login_button">
+                <div class="col-md-3 mt-2">
+                    <label for="">Email</label>
+                    <input id="email" type="email">
                 </div>
+                <div class="col-md-3 mt-2">
+                    <label for="">Password</label>
+                    <input id="password" type="password">
+                </div>
+                <button id="clickFormLogin" class="mt-5 col-md-3">Enviar</button>
             </form>
         </div>
-    </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
+
 </html>
